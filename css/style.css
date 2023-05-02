@@ -119,6 +119,10 @@ footer i{
     justify-content: center;
 }
 
+.navbar_right{
+    justify-content: flex-end;
+}
+
 ul{
     list-style: none;
     align-items: center;
@@ -137,4 +141,14 @@ ul{
 h3{
     font-size: 15px;
     font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+.exit{
+    background-color: var(--lightgrey);
+    color: red;
+    padding: 30px 10px;
 }
