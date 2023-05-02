@@ -29,9 +29,9 @@ body{
 }
 
     /* temporary */
-.border{
+/* .border{
         border: 2px dashed peru;
-}
+} */
 
 /* .card{
     height: 200px;
@@ -94,6 +94,41 @@ main{
 }
 
 /* footer */
+footer{
+    background-color: var(--darkgrey)
+}
+
 footer .navbar{
-        height: 5rem;
+    height: 5rem;
+    justify-content: space-between;
+}
+
+footer i{
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.navbar_left , .navbar_right{
+    flex-basis: 25%;
+}
+
+.navbar_center{
+    flex-basis: 50%;
+}
+
+ul{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.fa-chevron-up{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: normal;
 }
