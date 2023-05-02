@@ -25,7 +25,8 @@ body{
 
 /* roots */
 :root{
-    --darkgrey : #4a4a4a ;
+    --darkgrey : #222222 ;
+    --lightgrey : #4a4a4a;
 }
 
     /* temporary */
@@ -55,7 +56,7 @@ header .navbar{
 
 .button{
     border-radius: 5px;
-    background-color: var(--darkgrey);
+    background-color: var(--lightgrey);
     margin: 3px;
     padding: 3px 5px;
     font-size: 13px;
@@ -115,6 +116,7 @@ footer i{
 
 .navbar_center{
     flex-basis: 50%;
+    justify-content: center;
 }
 
 ul{
@@ -126,6 +128,10 @@ ul{
 
 .fa-chevron-up{
     font-size: 12px;
+}
+
+.fa-share-from-square{
+    color: lime;
 }
 
 h3{
